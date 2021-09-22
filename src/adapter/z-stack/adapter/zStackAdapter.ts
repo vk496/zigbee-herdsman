@@ -798,7 +798,7 @@ class ZStackAdapter extends Adapter {
     }
 
     public async supportsBackup(): Promise<boolean> {
-        return true;
+        return false;
     }
 
     public async backup(): Promise<Models.Backup> {
